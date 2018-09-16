@@ -8,6 +8,7 @@ import com.vanniktech.emoji.one.EmojiOne;
 
 @SuppressWarnings("PMD.MethodReturnsInternalArray") public final class SmileysAndPeopleCategory implements EmojiCategory {
   private static final EmojiOne[] DATA = new EmojiOne[] {
+    new EmojiOne(0x1F929, 38, 50),
     new EmojiOne(0x1F600, 30, 24),
     new EmojiOne(0x1F601, 30, 25),
     new EmojiOne(0x1F602, 30, 26),
