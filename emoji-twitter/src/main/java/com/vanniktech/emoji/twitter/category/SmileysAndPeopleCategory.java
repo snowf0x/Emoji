@@ -8,6 +8,7 @@ import com.vanniktech.emoji.twitter.TwitterEmoji;
 
 @SuppressWarnings("PMD.MethodReturnsInternalArray") public final class SmileysAndPeopleCategory implements EmojiCategory {
   private static final TwitterEmoji[] DATA = new TwitterEmoji[] {
+    new TwitterEmoji(0x1F929, 38, 50),
     new TwitterEmoji(0x1F600, 30, 24),
     new TwitterEmoji(0x1F601, 30, 25),
     new TwitterEmoji(0x1F602, 30, 26),
